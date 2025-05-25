@@ -1,73 +1,130 @@
-# Welcome to your Lovable project
+# 📊 Minimal Stock Board
 
-## Project info
+Um aplicativo web **mobile first** e minimalista para visualizar rapidamente as cotações de ativos financeiros, incluindo **ações brasileiras, FIIs, criptomoedas, ETFs, REITs e stocks internacionais**, tudo em uma única tela.
 
-**URL**: https://lovable.dev/projects/454c592f-1ccb-442e-8acc-d2bc7840bb26
+## 🚀 Tecnologias utilizadas
 
-## How can I edit this code?
+- **React.js** + **Next.js** — Estrutura de desenvolvimento
+- **TailwindCSS** — Estilização minimalista e responsiva
+- **Vercel** — Deploy e hospedagem
+- **APIs Financeiras** — Para obtenção das cotações em tempo real
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🛠️ Como rodar o projeto localmente
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/454c592f-1ccb-442e-8acc-d2bc7840bb26) and start prompting.
+### ✅ Passo 1: Clone o repositório
 
-Changes made via Lovable will be committed automatically to this repo.
+```bash
+git clone https://github.com/eder-projetos-dev/minimal-stock-board.git
+```
 
-**Use your preferred IDE**
+✅ Passo 2: Navegue até o diretório do projeto
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+cd minimal-stock-board
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+✅ Passo 3: Instale as dependências
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
+```bash
 npm i
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+✅ Passo 4: Inicie o servidor de desenvolvimento
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+O aplicativo estará disponível em:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+➡️ http://localhost:3000
 
-**Use GitHub Codespaces**
+🎯 Funcionalidades
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+✅ Cotação em tempo real dos seguintes ativos:
 
-## What technologies are used for this project?
+Ações Brasileiras
 
-This project is built with:
+```text
+BBAS3, VALE3, BBDC4, ABCB4, ISAE4, BRSR5
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Fundos Imobiliários (FIIs)
 
-## How can I deploy this project?
+```text
+KNRI11, XPML11, SNAG11, ALZR11, MXRF11, LVBI11, RURA11, VISC11, CPTS11
+```
 
-Simply open [Lovable](https://lovable.dev/projects/454c592f-1ccb-442e-8acc-d2bc7840bb26) and click on Share -> Publish.
+Criptomoedas
 
-## Can I connect a custom domain to my Lovable project?
+```text
+USDT, BTC, SOL, ETH, BNB
+```
 
-Yes, you can!
+ETFs
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```text
+IVVB11 (Brasil)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+DHS (Internacional)
+```
+
+REITs
+
+```text
+EPR, STAG, O, LTC
+```
+
+Stocks
+
+```text
+PBA
+```
+
+🎨 Design
+
+```text
+Mobile first: foco em uso rápido via smartphones.
+
+Interface minimalista e intuitiva.
+
+Separação clara por categorias de ativos.
+
+Indicação visual de variações (verde para alta, vermelho para baixa).
+```
+
+📦 Deploy
+
+Este projeto está hospedado na Vercel para fácil acesso e distribuição.
+
+➡️ [Insira aqui o link para o deploy]
+
+🤝 Contribuição
+
+Contribuições são bem-vindas!
+
+1. Faça um fork
+
+2. Crie uma branch (git checkout -b feature/nova-funcionalidade)
+
+3. Commit suas alterações (git commit -m 'Adiciona nova funcionalidade')
+
+4. Push na branch (git push origin feature/nova-funcionalidade)
+
+5. Abra um Pull Request
+
+📄 Licença
+
+Este projeto está sob a licença MIT.
+
+Consulte o arquivo LICENSE para mais informações.
+
+✉️ Contato
+
+Éder Luís Britto Garcia
+
+https://www.linkedin.com/in/eder-luis-britto-garcia/
+
+eder.projetos.dev@gmail.com
