@@ -2,6 +2,8 @@
 
 Um aplicativo web **mobile first** e minimalista para visualizar rapidamente as cotações de ativos financeiros, incluindo **ações brasileiras, FIIs, criptomoedas, ETFs, REITs e stocks internacionais**, tudo em uma única tela.
 
+![minimal-stock-board](https://github.com/user-attachments/assets/24d17e60-52c2-42d6-8222-c96074a6478c)
+
 ## 🚀 Tecnologias utilizadas
 
 - **React.js** + **Next.js** — Estrutura de desenvolvimento
