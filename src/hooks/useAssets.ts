@@ -133,9 +133,9 @@ const mockData: AssetsData = {
     {
       ticker: "USDT",
       name: "Tether",
-      price: 5.24,
-      change: 0.01,
-      changePercent: 0.19,
+      price: 5.65,
+      change: 0.05,
+      changePercent: 0.02,
     },
     {
       ticker: "BTC",
