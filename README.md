@@ -37,10 +37,6 @@ npm i
 npm run dev
 ```
 
-O aplicativo estará disponível em:
-
-➡️ http://localhost:3000
-
 🎯 Funcionalidades
 
 ✅ Cotação em tempo real dos seguintes ativos:
@@ -99,7 +95,7 @@ Indicação visual de variações (verde para alta, vermelho para baixa).
 
 Este projeto está hospedado na Vercel para fácil acesso e distribuição.
 
-➡️ [Insira aqui o link para o deploy]
+[https://minimal-stock-board.vercel.app/](https://minimal-stock-board.vercel.app/)
 
 🤝 Contribuição
 
